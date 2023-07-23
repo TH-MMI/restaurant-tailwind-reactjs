@@ -6,7 +6,7 @@ const Menu = ({ statu, childClick }) => {
     console.log('menu :' , statu)
 
     return (
-        <>
+        <> 
             {statu ? (<><div className='fixed top-0 left-0 bg-black opacity-40 w-full h-[100vh] z-10 duration-500' onClick={click}></div>
                 <div className="fixed top-0 left-0 bg-white z-10 p-5 w-full h-[100vh] duration-500 sm:w-[500px]">
                     <div className='flex justify-between px-5 items-center mb-10 h-12'>
